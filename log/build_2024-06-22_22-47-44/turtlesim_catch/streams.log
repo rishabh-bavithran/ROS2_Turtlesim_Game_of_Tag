@@ -1,0 +1,35 @@
+[0.384s] Invoking command in '/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch': PYTHONPATH=/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/prefix_override:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch build --build-base /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build install --record /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/install.log --single-version-externally-managed install_data
+[0.503s] running egg_info
+[0.503s] creating ../../build/turtlesim_catch/turtlesim_catch.egg-info
+[0.503s] writing ../../build/turtlesim_catch/turtlesim_catch.egg-info/PKG-INFO
+[0.503s] writing dependency_links to ../../build/turtlesim_catch/turtlesim_catch.egg-info/dependency_links.txt
+[0.503s] writing entry points to ../../build/turtlesim_catch/turtlesim_catch.egg-info/entry_points.txt
+[0.503s] writing requirements to ../../build/turtlesim_catch/turtlesim_catch.egg-info/requires.txt
+[0.503s] writing top-level names to ../../build/turtlesim_catch/turtlesim_catch.egg-info/top_level.txt
+[0.503s] writing manifest file '../../build/turtlesim_catch/turtlesim_catch.egg-info/SOURCES.txt'
+[0.504s] reading manifest file '../../build/turtlesim_catch/turtlesim_catch.egg-info/SOURCES.txt'
+[0.504s] writing manifest file '../../build/turtlesim_catch/turtlesim_catch.egg-info/SOURCES.txt'
+[0.504s] running build
+[0.504s] running build_py
+[0.504s] creating /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build
+[0.504s] creating /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build/lib
+[0.504s] creating /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build/lib/turtlesim_catch
+[0.504s] copying turtlesim_catch/__init__.py -> /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build/lib/turtlesim_catch
+[0.504s] running install
+[0.505s] running install_lib
+[0.505s] creating /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/lib/python3.10/site-packages/turtlesim_catch
+[0.505s] copying /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build/lib/turtlesim_catch/__init__.py -> /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/lib/python3.10/site-packages/turtlesim_catch
+[0.505s] byte-compiling /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/lib/python3.10/site-packages/turtlesim_catch/__init__.py to __init__.cpython-310.pyc
+[0.505s] running install_data
+[0.505s] creating /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share
+[0.505s] creating /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share/ament_index
+[0.505s] creating /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share/ament_index/resource_index
+[0.505s] creating /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share/ament_index/resource_index/packages
+[0.505s] copying resource/turtlesim_catch -> /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share/ament_index/resource_index/packages
+[0.505s] creating /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share/turtlesim_catch
+[0.505s] copying package.xml -> /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/share/turtlesim_catch
+[0.505s] running install_egg_info
+[0.506s] Copying ../../build/turtlesim_catch/turtlesim_catch.egg-info to /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/lib/python3.10/site-packages/turtlesim_catch-0.0.0-py3.10.egg-info
+[0.506s] running install_scripts
+[0.517s] writing list of installed files to '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/install.log'
+[0.528s] Invoked command in '/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch' returned '0': PYTHONPATH=/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/prefix_override:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch build --build-base /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/build install --record /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch/install.log --single-version-externally-managed install_data
