@@ -5,6 +5,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose 
 
+
 class BossTurtle(Node):
 
     def __init__(self): 
@@ -17,8 +18,8 @@ class BossTurtle(Node):
 
     def controller(self): 
         msg = Twist()
-        msg.linear.x = 0.3
-        msg.linear.y = 0.1 
+        msg.linear.x = 0.5
+        msg.linear.y = 0.0 
 
         msg.angular.z = 0.1
         self.get_logger().info("Debugging")
@@ -28,6 +29,7 @@ class BossTurtle(Node):
         #self.get_logger().info(str(msg))
         self.get_logger().info("X Coordinate = " + str(msg.x))
         self.get_logger().info("y Coordinate = " + str(msg.y))
+        #self.get_logger().info("Orientation = " + str(msg.theta))
         
 
 def main(args=None):

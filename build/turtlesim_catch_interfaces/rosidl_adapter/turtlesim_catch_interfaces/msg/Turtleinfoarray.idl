@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlesim_catch_interfaces/msg/Turtleinfoarray.msg
+// generated code does not contain a copyright notice
+
+#include "turtlesim_catch_interfaces/msg/Turtleinfo.idl"
+
+module turtlesim_catch_interfaces {
+  module msg {
+    struct Turtleinfoarray {
+      sequence<turtlesim_catch_interfaces::msg::Turtleinfo> turtles;
+    };
+  };
+};

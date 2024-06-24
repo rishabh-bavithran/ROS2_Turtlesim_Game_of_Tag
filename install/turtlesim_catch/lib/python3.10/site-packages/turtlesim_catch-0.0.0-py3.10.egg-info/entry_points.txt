@@ -1,3 +1,4 @@
 [console_scripts]
+prey_turtles = turtlesim_catch.turtle_spawner:main
 turtle_controller = turtlesim_catch.turtle_controller:main
 

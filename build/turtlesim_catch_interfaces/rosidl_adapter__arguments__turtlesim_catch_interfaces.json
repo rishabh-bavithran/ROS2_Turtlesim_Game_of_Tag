@@ -1,0 +1,7 @@
+{
+  "package_name": "turtlesim_catch_interfaces",
+  "non_idl_tuples": [
+    "/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_interfaces:msg/Turtleinfo.msg",
+    "/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_interfaces:msg/Turtleinfoarray.msg"
+  ]
+}
