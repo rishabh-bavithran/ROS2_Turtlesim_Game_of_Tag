@@ -2,3 +2,7 @@ msg/Turtleinfo.idl
 msg/Turtleinfo.msg
 msg/Turtleinfoarray.idl
 msg/Turtleinfoarray.msg
+srv/TargetTurtle.idl
+srv/TargetTurtle.srv
+srv/TargetTurtle_Request.msg
+srv/TargetTurtle_Response.msg

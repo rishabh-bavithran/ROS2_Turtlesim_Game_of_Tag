@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlesim_catch_interfaces/srv/TargetTurtle.srv
+// generated code does not contain a copyright notice
+
+
+module turtlesim_catch_interfaces {
+  module srv {
+    struct TargetTurtle_Request {
+      string name;
+    };
+    struct TargetTurtle_Response {
+      boolean success;
+    };
+  };
+};

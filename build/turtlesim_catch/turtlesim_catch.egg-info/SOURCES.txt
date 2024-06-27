@@ -13,5 +13,6 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtlesim_catch/__init__.py
+turtlesim_catch/testing.py
 turtlesim_catch/turtle_controller.py
 turtlesim_catch/turtle_spawner.py

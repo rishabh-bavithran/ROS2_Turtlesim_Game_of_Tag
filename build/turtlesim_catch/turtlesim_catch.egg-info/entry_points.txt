@@ -1,4 +1,5 @@
 [console_scripts]
 prey_turtles = turtlesim_catch.turtle_spawner:main
+test_node = turtlesim_catch.testing:main
 turtle_controller = turtlesim_catch.turtle_controller:main
 

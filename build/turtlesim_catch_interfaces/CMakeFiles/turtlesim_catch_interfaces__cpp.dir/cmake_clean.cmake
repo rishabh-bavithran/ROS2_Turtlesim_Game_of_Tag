@@ -8,6 +8,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/turtlesim_catch_interfaces/msg/detail/turtleinfoarray__traits.hpp"
   "rosidl_generator_cpp/turtlesim_catch_interfaces/msg/turtleinfo.hpp"
   "rosidl_generator_cpp/turtlesim_catch_interfaces/msg/turtleinfoarray.hpp"
+  "rosidl_generator_cpp/turtlesim_catch_interfaces/srv/detail/target_turtle__builder.hpp"
+  "rosidl_generator_cpp/turtlesim_catch_interfaces/srv/detail/target_turtle__struct.hpp"
+  "rosidl_generator_cpp/turtlesim_catch_interfaces/srv/detail/target_turtle__traits.hpp"
+  "rosidl_generator_cpp/turtlesim_catch_interfaces/srv/target_turtle.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

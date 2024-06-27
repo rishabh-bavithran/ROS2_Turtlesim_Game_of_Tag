@@ -364,11 +364,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_catch_interfaces/srv" TYPE FILE FILES "/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_interfaces/rosidl_adapter/turtlesim_catch_interfaces/srv/TargetTurtle.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_catch_interfaces/msg" TYPE FILE FILES "/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_interfaces/msg/Turtleinfo.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_catch_interfaces/msg" TYPE FILE FILES "/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_interfaces/msg/Turtleinfoarray.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_catch_interfaces/srv" TYPE FILE FILES "/home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_interfaces/srv/TargetTurtle.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_catch_interfaces/srv" TYPE FILE FILES "/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_interfaces/rosidl_cmake/srv/TargetTurtle_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlesim_catch_interfaces/srv" TYPE FILE FILES "/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_interfaces/rosidl_cmake/srv/TargetTurtle_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
