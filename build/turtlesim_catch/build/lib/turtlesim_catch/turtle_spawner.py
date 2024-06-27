@@ -19,7 +19,7 @@ class TurtleSpawner(Node):
         super().__init__("prey_turtles")
         self.get_logger().info("Turtle Spawner node has started")
 
-        self.turtle_spawner = self.create_timer(5, self.call_turtle_spawner)
+        self.turtle_spawner = self.create_timer(0.7, self.call_turtle_spawner)
         self.alive_turtles_publisher = self.create_publisher(Turtleinfoarray, "turtles_info", 10)
         self.kill_turtle = self.create_service(TargetTurtle, "kill_turtle", self.callback_kill_turtle_server )
         self.alive_turtles = []
@@ -68,8 +68,8 @@ class TurtleSpawner(Node):
             self.get_logger().warn("Waiting for server")
 
         request = Spawn.Request()
-        request.x = random.uniform(0,11)
-        request.y = random.uniform(0,11)
+        request.x = random.uniform(0,10.5)
+        request.y = random.uniform(0,10.5)
         request.theta = random.uniform(-np.pi ,np.pi) 
 
         

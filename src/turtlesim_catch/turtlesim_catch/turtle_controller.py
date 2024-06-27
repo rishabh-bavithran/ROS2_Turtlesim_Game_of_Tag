@@ -129,8 +129,21 @@ class BossTurtle(Node):
         
         if self.last_target == 1 : 
             self.last_target = 0 
-            self.current_target = self.alive_turtles[0]
+            closest_distance = 1000
+            for (i, turtle) in enumerate(self.alive_turtles):
+                distance_x = self.boss.x - turtle.x
+                distance_y = self.boss.y - turtle.y
+
+                distance = math.sqrt(distance_x**2 + distance_y**2)
+
+                if distance < closest_distance: 
+                    closest_distance = distance
+                    target_number = i
+
+            self.current_target = self.alive_turtles[target_number]
             self.get_logger().info("Current Target = " + str(self.current_target))
+
+                
         self.get_logger().info(str(self.alive_turtles))
         
 

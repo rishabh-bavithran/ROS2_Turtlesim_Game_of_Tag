@@ -1,0 +1,41 @@
+[0.007s] Invoking command in '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch:/home/rishabh/ros2_ws/install/percepto_planner:/opt/ros/humble /usr/bin/cmake /home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_bringup -DCMAKE_INSTALL_PREFIX=/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.447s] -- Configuring done
+[0.449s] -- Generating done
+[0.449s] -- Build files have been written to: /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup
+[0.567s] Invoked command in '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch:/home/rishabh/ros2_ws/install/percepto_planner:/opt/ros/humble /usr/bin/cmake /home/rishabh/testinggit/TurtlesimGame/src/turtlesim_catch_bringup -DCMAKE_INSTALL_PREFIX=/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup
+[0.568s] Invoking command in '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch:/home/rishabh/ros2_ws/install/percepto_planner:/opt/ros/humble /usr/bin/cmake --build /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup -- -j20 -l20
+[0.592s] Invoked command in '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch:/home/rishabh/ros2_ws/install/percepto_planner:/opt/ros/humble /usr/bin/cmake --build /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup -- -j20 -l20
+[0.607s] Invoking command in '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch:/home/rishabh/ros2_ws/install/percepto_planner:/opt/ros/humble /usr/bin/cmake --install /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup
+[0.611s] -- Install configuration: ""
+[0.611s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/launch
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/launch/turtlesimgame.launch.py
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_bringup
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_bringup
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/environment/ament_prefix_path.sh
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/environment/ament_prefix_path.dsv
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/environment/path.sh
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/environment/path.dsv
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/local_setup.bash
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/local_setup.sh
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/local_setup.zsh
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/local_setup.dsv
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/package.dsv
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/ament_index/resource_index/packages/turtlesim_catch_bringup
+[0.612s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/cmake/turtlesim_catch_bringupConfig.cmake
+[0.613s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/cmake/turtlesim_catch_bringupConfig-version.cmake
+[0.613s] -- Installing: /home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch_bringup/share/turtlesim_catch_bringup/package.xml
+[0.613s] Invoked command in '/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishabh/testinggit/TurtlesimGame/install/turtlesim_catch:/home/rishabh/ros2_ws/install/percepto_planner:/opt/ros/humble /usr/bin/cmake --install /home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup

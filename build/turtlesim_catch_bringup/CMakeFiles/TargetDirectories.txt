@@ -1,0 +1,9 @@
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/uninstall.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/turtlesim_catch_bringup_uninstall.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/test.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/edit_cache.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/rebuild_cache.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/list_install_components.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/install.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/install/local.dir
+/home/rishabh/testinggit/TurtlesimGame/build/turtlesim_catch_bringup/CMakeFiles/install/strip.dir
