@@ -1,5 +1,7 @@
 # Turtlesim Catch Them All
 
+![Untitled design](https://github.com/rishabh-bavithran/Turtlesim-Catch-them-all-Game/assets/145865695/a454dade-643a-4371-a00a-d29085570e97)
+
 ## Overview
 
 This project involves using the `turtlesim` package in ROS (Robot Operating System) to create a fun and interactive application. The application uses three nodes:
@@ -37,3 +39,10 @@ The project includes custom message and service interfaces:
 - **Turtleinfo.msg**: Defines the message structure for a turtle (name and coordinates).
 - **Turtleinfoarray.msg**: Defines the message structure for an array of turtles, used for the `/turtles_info` topic.
 - **TargetTurtle.srv**: Defines the service structure to send the name of the turtle that was caught. The client is the `turtle_controller` node, and the server is the `prey_turtles` node.
+
+## Launch File for easy access
+
+The project includes a launch file for easy deployment of all 3 nodes
+
+![Screenshot from 2024-06-29 16-39-54](https://github.com/rishabh-bavithran/Turtlesim-Catch-them-all-Game/assets/145865695/fc410410-42ee-4a0c-9ab4-9cb3b0d5c8b0)
+
