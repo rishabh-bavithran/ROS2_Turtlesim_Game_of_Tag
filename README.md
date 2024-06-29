@@ -1,6 +1,6 @@
-# Turtlesim Catch Them All
+# Turtlesim Tag Game
 
-![Untitled design](https://github.com/rishabh-bavithran/Turtlesim-Catch-them-all-Game/assets/145865695/a454dade-643a-4371-a00a-d29085570e97)
+<img src="https://github.com/rishabh-bavithran/Turtlesim-Catch-them-all-Game/assets/145865695/a454dade-643a-4371-a00a-d29085570e97" alt="Untitled design" width="400"/>
 
 ## Overview
 
