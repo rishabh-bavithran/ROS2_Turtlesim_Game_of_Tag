@@ -28,7 +28,7 @@ The `turtle_controller` node performs the following functions:
 - **Control Loop**: Runs a control loop using a high-rate timer to reach a target point. Controls the "boss" turtle, `turtle1`, by subscribing to `/turtle1/pose` and publishing to `/turtle1/cmd_vel`.
 - **P Controller**: Implements a simplified Proportional (P) controller for the control loop.
 - **Subscribe to Alive Turtles**: Subscribes to the `/turtles_info` topic to get the list of current turtles with coordinates and selects a target turtle to catch.
-- **Kill Turtle**: Calls the `/kill_turtle` service provided by the `turtle_spawner` node when a turtle has been caught by the master turtle.
+- **Kill Turtle**: Calls the `/kill_turtle` service provided by the `prey_turtles` node when a turtle has been caught by the master turtle.
 
 ## Custom Interfaces
 
