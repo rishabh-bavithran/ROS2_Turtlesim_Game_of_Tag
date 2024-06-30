@@ -25,7 +25,7 @@ The `turtle_spawner` node performs the following functions:
 - **Publish Alive Turtles**: Publishes the list of currently alive turtles with their coordinates on the `/turtles_info` topic.
 - **Handle Catch Service**: Provides a service to "catch" a turtle, which involves calling the `/kill` service and removing the turtle from the list of alive turtles.
 
-### turtle_controller Node
+### boss_node Node
 
 The `turtle_controller` node performs the following functions:
 
@@ -40,7 +40,7 @@ The project includes custom message and service interfaces:
 
 - **Turtleinfo.msg**: Defines the message structure for a turtle (name and coordinates).
 - **Turtleinfoarray.msg**: Defines the message structure for an array of turtles, used for the `/turtles_info` topic.
-- **TargetTurtle.srv**: Defines the service structure to send the name of the turtle that was caught. The client is the `turtle_controller` node, and the server is the `prey_turtles` node.
+- **TargetTurtle.srv**: Defines the service structure to send the name of the turtle that was caught. The client is the `boss_node`, and the server is the `prey_turtles` node.
 
 ## Launch File for easy access
 
