@@ -1,6 +1,8 @@
 # Turtlesim Game of Tag
 
-<img src="https://github.com/rishabh-bavithran/Turtlesim-Catch-them-all-Game/assets/145865695/a454dade-643a-4371-a00a-d29085570e97" alt="Untitled design" width="400"/>
+<img src="https://github.com/rishabh-bavithran/ROS2_Turtlesim_Game_of_Tag/assets/145865695/eb570c86-8338-4b05-9cec-059d41db6f4b" alt="TurtlesimGame" width="400"/>
+
+
 
 ## Overview
 
