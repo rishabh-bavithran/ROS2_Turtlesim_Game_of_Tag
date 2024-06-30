@@ -9,7 +9,7 @@
 This project involves using the `turtlesim` package in ROS (Robot Operating System) to create a fun and interactive application. The application uses three nodes:
 
 1. **turtlesim_node** from the `turtlesim` package.
-2. **turtle_controller**: A custom node to control the turtle named "turtle1" which is part of the `turtlesim_node`.
+2. **boss_node**: A custom node to control the turtle named "turtle1" which is part of the `turtlesim_node`.
 3. **prey_turtles**: A custom node to spawn and manage turtles on the window, determining which turtles are still "alive" (on the screen).
 
 The project can be organized into a new package named `turtlesim_catch`.
