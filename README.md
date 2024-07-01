@@ -42,7 +42,7 @@ The project includes custom message and service interfaces:
 - **Turtleinfoarray.msg**: Defines the message structure for an array of turtles, used for the `/turtles_info` topic.
 - **TargetTurtle.srv**: Defines the service structure to send the name of the turtle that was caught. The client is the `boss_node`, and the server is the `prey_turtles` node.
 
-## Launch File for easy access
+## Launch File for easy deployment
 
 The project includes a launch file for easy deployment of all 3 nodes
 
