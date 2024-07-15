@@ -27,7 +27,7 @@ The `turtle_spawner` node performs the following functions:
 
 ### boss_node Node
 
-The `turtle_controller` node performs the following functions:
+The `boss_node` performs the following functions:
 
 - **Control Loop**: Runs a control loop using a high-rate timer to reach a target point. Controls the "boss" turtle, `turtle1`, by subscribing to `/turtle1/pose` and publishing to `/turtle1/cmd_vel`.
 - **P Controller**: Implements a simplified Proportional (P) controller for the control loop.
